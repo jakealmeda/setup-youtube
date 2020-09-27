@@ -128,8 +128,7 @@ function setup_youtube_scripts() {
 if ( !is_admin() ) {
 
 	// ENQUEUE SCRIPTS
-    //add_action( 'wp_enqueue_scripts', 'setup_youtube_scripts' );
-    add_action( 'wp_footer', 'setup_youtube_scripts', 5 );
+//    add_action( 'wp_footer', 'setup_youtube_scripts', 5 );
 
     // SHORTCODE - YOUTUBE EMBEDS
     add_shortcode( 'su_youtube_advanced', 'su_youtube_advanced_func' );
